@@ -13,7 +13,7 @@ const Services = () => {
 
     return (
         <div className="container-fluid mt-5">
-            <h1 className="fw-bolder" style={{color:"green"}}>travel Services</h1>
+            <h1 className="fw-bolder" style={{color:"red"}}>Recent Trips</h1>
          
             <div className="row pb-5">
                     {

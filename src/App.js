@@ -9,8 +9,8 @@ import Login from './Login/Login'
 import Notfound from './Pages/Notfound/Notfound'
 import AuthProvider from './Context/AuthProvider';
 import PrivateRoute from './Hooks/PrivateRoute';
-import Doctors from './Pages/Home/Doctors/Doctors';
 import Footer from './Pages/Home/Footer/Footer';
+import Destination from './Pages/Home/Destination/Destination';
 
 function App() {
   return (
@@ -26,8 +26,8 @@ function App() {
           <Route exact path="/home">
              <Home></Home>
           </Route>
-          <PrivateRoute exact path="/doctor">
-             <Doctors />
+          <PrivateRoute exact path="/destination">
+             <Destination></Destination>
           </PrivateRoute>
          
           <Route exact path="/about">
