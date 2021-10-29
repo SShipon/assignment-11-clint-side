@@ -71,8 +71,9 @@
     "title":"Country in Europe",
     "description":"Switzerland is a mountainous Central European country, home to numerous lakes, villages and the high peaks of the Alps",
     "image": "https://i.ibb.co/0VvXCnS/pexels-julian-jagtenberg-103123.jpg",
-    "cost":"160",
-    "rating": "5"
+    "cost":"650",
+    "rating": "5",
+    "day": "5"
  },
  {
   "id": 6,

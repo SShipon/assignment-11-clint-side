@@ -6,7 +6,7 @@ import Header from './Pages/Home/Header/Header';
 import Home from './Pages/Home/Home/Home';
 import ServiceDetails from './Pages/Home/serviceDetails/ServiceDetails';
 import Login from './Login/Login'
-import Notfound from './Pages/Notfound/Notfound'
+import NotFound from './Pages/NotFound/NotFound'
 import AuthProvider from './Context/AuthProvider';
 import PrivateRoute from './Hooks/PrivateRoute';
 import Footer from './Pages/Home/Footer/Footer';
@@ -43,7 +43,7 @@ function App() {
             <Login></Login>
           </Route>
           <Route path="*">
-          <Notfound></Notfound>
+          <NotFound></NotFound>
           </Route>
          </Switch>
          <Footer></Footer>

@@ -20,7 +20,9 @@ const ServiceCard = (props) => {
                         emptySymbol={<i className="far fa-star" bg="warning" ></i>}
                         placeholderSymbol={<i className="fas fa-star" bg="warning" ></i>}
                         fullSymbol={<i className="fas fa-star" bg="warning" ></i>}/>
+                          <span style={{padding:"10px",}} >{day} day</span>
                     </p>
+                      <h3>$ {cost}</h3>
                     </div>
                     <NavLink to={`/services/${id}`} className="fw-bolder fs-5 mt-3 text-danger">Discovered More</NavLink>
                 </div>
