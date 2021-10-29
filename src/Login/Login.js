@@ -101,10 +101,10 @@ const Login = () => {
                 <div className=" row text-danger">{error}</div>
                 <button type="submit" className="btn btn-success fw-bolder fs-5">{login ? 'Login' : 'Register'}</button>
                 {login && <div className="mt-3">
-                    <button onClick={handleReset} type="submit" className="btn btn-warning fw-bolder fs-5  ms-2">Reset password</button>
+                    <button onClick={handleReset} type="submit" className="btn btn-info fw-bolder fs-5  ms-2">Reset password</button>
                 </div> }
                 <div>----------OR---------</div>
-                <button className="mt-3" onClick={googleLogIn} type="submit" className="btn btn-success fw-bolder fs-5 ms-2">Google Sign In</button> <br /> <br />
+                <button className="mt-3" onClick={googleLogIn} type="submit" className="btn btn-success fw-bolder fs-5 ms-2">Google Sign In</button> <br /><br />
 
                </div>
              </form>

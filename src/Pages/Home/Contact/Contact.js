@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import './contact.css'
 
 import icon1 from '../../../images/icon/25489.jpg'
@@ -36,4 +36,4 @@ const Contact = () => {
     );
 };
 
-export default Contact;
+export default Contact; 

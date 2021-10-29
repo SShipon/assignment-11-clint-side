@@ -5,14 +5,15 @@ import img3 from '../../../images/Destination/Dubai.jpg'
 import img4 from '../../../images/Destination/london.jpg'
 import img5 from '../../../images/Destination/Romania.jpg'
 import img6 from '../../../images/Destination/Switzerland.jpg'
+import './Destination.css'
 
 const Destination = () => {
     return (
         <div>
             <h2>Top Places to Visit in the World</h2>
-            <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="row row-cols-1 row-cols-md-2">
             <div class="col">
-                <div class="card">
+                <div class="cards">
                 <img src={img1} alt="" />      
                 <div class="card-body">
                     <h4 class="card-title">California</h4>
@@ -22,7 +23,7 @@ const Destination = () => {
                 </div>
             </div>
             <div class="col">
-                <div class="card">
+                <div class="cards">
                 <img src={img2} alt="" />
                 <div class="card-body">
                     <h4 class="card-title">Canada</h4>
@@ -31,7 +32,7 @@ const Destination = () => {
                 </div>
             </div>
             <div class="col">
-                <div class="card">
+                <div class="cards">
                 <img src={img3} alt="" />      
                 <div class="card-body">
                     <h4 class="card-title">Dubai</h4>
@@ -40,7 +41,7 @@ const Destination = () => {
                 </div>
             </div>
             <div class="col">
-                <div class="card">
+                <div class="cards">
                     <img src={img4} alt="" />
                 <div class="card-body">
                     <h4 class="card-title">London</h4>
@@ -49,7 +50,7 @@ const Destination = () => {
                 </div>
             </div>
             <div class="col">
-                <div class="card">
+                <div class="cards">
                     <img src={img5} alt="" />
                 <div class="card-body">
                     <h4 class="card-title">Romania</h4>
@@ -58,7 +59,7 @@ const Destination = () => {
                 </div>
             </div>
             <div class="col">
-                <div class="card">
+                <div class="cards">
                     <img src={img6} alt="" />
                 <div class="card-body">
                     <h4 class="card-title">Switzerland</h4>

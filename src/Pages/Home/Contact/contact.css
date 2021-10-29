@@ -1,4 +1,4 @@
-.contact-body{
+/* .contact-body{
     background-image: linear-gradient(#214977, #35357e);
     padding: 20px;
 }
@@ -7,12 +7,11 @@ img{
     height: 200px;
     margin: auto;
     /* border: 2px solid gray; */
-  
-    align-items: center;
+   /* align-items: center;
     justify-content: center;
-    /* padding:50px */
+    /* padding:50px 
 }
-.card{
+/*.card{
     background-color:indianred ;
     color: lavenderblush;
    padding: 50px;
@@ -22,4 +21,4 @@ img{
 .card:hover{
   background-color: rgba(98, 201, 98, 0.486);
   color: #214977;
-}
+} */
