@@ -6,6 +6,6 @@
   }
   .service-area form input, textarea{
       width: 40%;
-      margin-bottom: 10px;
-      border: 1px solid gold;
+      margin-bottom: 12px;
+      border: 1px solid rgb(8, 216, 205);
   } 

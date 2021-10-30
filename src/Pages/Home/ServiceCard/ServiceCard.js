@@ -3,7 +3,7 @@ import Rating from 'react-rating';
 import { NavLink } from 'react-router-dom';
 
 const ServiceCard = (props) => {
-    const {id, title, image , description, cost, rating, day} = props.services;
+    const {id, name, title, image , description, cost, rating, day} = props.services;
     return (
        
 
@@ -12,6 +12,7 @@ const ServiceCard = (props) => {
                 <div className="card ">
                     <img src={image}  alt="" />
                     <div className="card-body">
+                         <h3>{name}</h3>
                         <h5 className="card-title">{title}</h5>
                         <p className="card-text">{description.slice(0, 95)}</p>
                         <p>  
@@ -24,7 +25,7 @@ const ServiceCard = (props) => {
                     </p>
                       <h3>$ {cost}</h3>
                     </div>
-                    <NavLink to={`/services/${id}`} className="fw-bolder fs-5 mt-3 text-danger">Discovered More</NavLink>
+                    <NavLink to={`/services/${id}`} className="fw-bolder fs-5 mt-3 text-danger"><button className="btn btn-info">Discovered More</button></NavLink>
                 </div>
                
             </div>
