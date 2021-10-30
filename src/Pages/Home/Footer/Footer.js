@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="row">
                     {/*colum 1*/}
                    <div className="col-md-3 col-sm-6">
-                         <h4>SEMRUSH</h4>
+                        <h4>SEMRUSH</h4>
                     <ul className="list-unstyled">
                         <li>Designer</li>
                         <li>Interactions</li>
@@ -50,7 +50,8 @@ const Footer = () => {
                    <div className="col-md-3 col-sm-6">
                          <h4>FOLLOW</h4>
                     <ul className="list-unstyled font-awsome ">
-                        <li><i class="fas fa-home"></i> Comilla Shaktola</li>
+                        <li><i class="fas fa-home"></i> Dhaka dhanmondi</li>
+                        <li><i class="fas fa-home"></i> Comiila Kandirpar </li>
                         <li><i class="fas fa-phone"></i> +8801703059461</li>
                         <li><i class="fas fa-question-circle"></i> +4574754</li>
                         <li><a href="https://www.facebook.com/mdshipon.chowdhury.940"><i class="fab fa-facebook"></i></a> Facebook</li>

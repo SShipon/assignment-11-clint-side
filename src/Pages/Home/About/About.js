@@ -1,5 +1,7 @@
 import React from 'react';
 import './about.css'
+//import video from '../../../images/video/Colorlib - Free Bootstrap Website Template.mkv'
+
 
 const About = () => {
     return (
@@ -12,10 +14,15 @@ const About = () => {
          <button className="mb-5 mt-5 w-25 m-auto fw-bolder btn">More About Us</button>
      </div> 
 
-
+     {/* <div className="container">
+     <video width="750" height="400" controls >
+      <source src={video} type="video/mp4"/>
+     </video>s
+     </div> */}
+    
     
      <div className="main-about">
-        <div className="container text-content">
+        <div className="container">
         <div className="row">
         <div className="col-md-6 col-sm-6">
           <h4>Our Story</h4>

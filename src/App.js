@@ -11,6 +11,7 @@ import AuthProvider from './Context/AuthProvider';
 import PrivateRoute from './Hooks/PrivateRoute';
 import Footer from './Pages/Home/Footer/Footer';
 import Destination from './Pages/Home/Destination/Destination';
+import AddService from './Pages/AddService/AddService';
 
 function App() {
   return (
@@ -39,6 +40,11 @@ function App() {
           <PrivateRoute exact path="/services/:serviceId">
              <ServiceDetails></ServiceDetails>
           </PrivateRoute>
+         <Route path="/addService" >
+            
+         <AddService></AddService>
+         </Route>
+
           <Route path="/login">
             <Login></Login>
           </Route>
