@@ -14,6 +14,7 @@ import Destination from './Pages/Home/Destination/Destination';
 import AddService from './Pages/AddService/AddService';
 
 
+
 function App() {
   return (
      <div className="App">
@@ -31,7 +32,6 @@ function App() {
           <PrivateRoute exact path="/destination">
              <Destination></Destination>
           </PrivateRoute>
-         
           <Route exact path="/about">
              <About></About>
           </Route>
