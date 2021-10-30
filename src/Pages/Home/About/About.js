@@ -1,9 +1,7 @@
 import React from 'react';
 import './about.css'
-import video from '../../../images/Video/video.mp4'
 import images from '../../../images/about/aboutimg.jpg';
 import images2 from '../../../images/about/aboutimg2.jpg';
-
 
 const About = () => {
     return (
@@ -16,17 +14,13 @@ const About = () => {
          <button className="mb-5 mt-5 w-25 m-auto fw-bolder btn">More About Us</button>
      </div> 
 
-     <div className="container">
-     <video width="750" height="400" controls >
-      <source src={video} type="video/mp4"/>
-     </video>
-     </div> 
+     
     
     
      <div className="main-about">
         <div className="container">
         <div className="row">
-          <h1> 10 best places </h1>
+
         <div className="col-lg-6 col-sm-6 col-12">
           <img src={images} alt="" />
           <h4>Places Story</h4>
