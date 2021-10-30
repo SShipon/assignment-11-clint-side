@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css'
-//import video from '../../../images/video/Colorlib - Free Bootstrap Website Template.mkv'
+import video from '../../../images/Video/video.mp4'
 import images from '../../../images/about/aboutimg.jpg';
 import images2 from '../../../images/about/aboutimg2.jpg';
 
@@ -16,26 +16,27 @@ const About = () => {
          <button className="mb-5 mt-5 w-25 m-auto fw-bolder btn">More About Us</button>
      </div> 
 
-     {/* <div className="container">
+     <div className="container">
      <video width="750" height="400" controls >
       <source src={video} type="video/mp4"/>
-     </video>s
-     </div> */}
+     </video>
+     </div> 
     
     
      <div className="main-about">
         <div className="container">
         <div className="row">
-        <div className="col-md-6 col-sm-6">
+          <h1> 10 best places </h1>
+        <div className="col-lg-6 col-sm-6 col-12">
           <img src={images} alt="" />
-          <h4>Our Story</h4>
+          <h4>Places Story</h4>
             <p>Consulting represents success at realizing the company is going in the wrong direction. The only time the company fails is when it is not possible to do a turnaround anymore. We help companies pivot into more profitable directions where they can expand and grow. It is inevitable that companies will end up making a few mistakes; we help them correct these mistakes.
 
              Consulting represents success at realizing the company is going in the wrong direction. The only time the company fails is when it is not possible to do a turnaround anymore. We help companies pivot into more profitable directions where they can expand and grow. It is inevitable that companies will end up making a few mistakes; we help them correct these mistakes.</p>
         </div>
-        <div className="col-md-6 col-sm-6">
+        <div className="col-lg-6 col-sm-6 col-12">
         <img src={images2} alt="" />
-            <h4>Our Story</h4>
+            <h4>Places Story</h4>
             <p>Consulting represents success at realizing the company is going in the wrong direction. The only time the company fails is when it is not possible to do a turnaround anymore. We help companies pivot into more profitable directions where they can expand and grow. It is inevitable that companies will end up making a few mistakes; we help them correct these mistakes.
 
              Consulting represents success at realizing the company is going in the wrong direction. The only time the company fails is when it is not possible to do a turnaround anymore. We help companies pivot into more profitable directions where they can expand and grow. It is inevitable that companies will end up making a few mistakes; we help them correct these mistakes.</p>

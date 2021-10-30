@@ -6,15 +6,15 @@ const Blog = () => {
         
         
         <div className="container text-content">
-            <h1>Bolo</h1>
-        <div className="row">
+            <h1 className="mb-2">Bolg</h1>
+        <div className="row mb-5">
         <div className="col-md-6 col-sm-6">
             <img src={iamges} alt="" />
         </div>
-        <div className="col-md-6 col-sm-12">
+        <div className="col-md-6 col-sm-12 ">
         <div className="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingOne">
+  <div className="accordion-item bt-2">
+    <h2 className="accordion-header" id="headingOne">
       <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
       Blog description -1
       </button>
