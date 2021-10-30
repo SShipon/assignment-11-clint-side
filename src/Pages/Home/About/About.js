@@ -1,6 +1,8 @@
 import React from 'react';
 import './about.css'
 //import video from '../../../images/video/Colorlib - Free Bootstrap Website Template.mkv'
+import images from '../../../images/about/aboutimg.jpg';
+import images2 from '../../../images/about/aboutimg2.jpg';
 
 
 const About = () => {
@@ -25,12 +27,14 @@ const About = () => {
         <div className="container">
         <div className="row">
         <div className="col-md-6 col-sm-6">
+          <img src={images} alt="" />
           <h4>Our Story</h4>
             <p>Consulting represents success at realizing the company is going in the wrong direction. The only time the company fails is when it is not possible to do a turnaround anymore. We help companies pivot into more profitable directions where they can expand and grow. It is inevitable that companies will end up making a few mistakes; we help them correct these mistakes.
 
              Consulting represents success at realizing the company is going in the wrong direction. The only time the company fails is when it is not possible to do a turnaround anymore. We help companies pivot into more profitable directions where they can expand and grow. It is inevitable that companies will end up making a few mistakes; we help them correct these mistakes.</p>
         </div>
         <div className="col-md-6 col-sm-6">
+        <img src={images2} alt="" />
             <h4>Our Story</h4>
             <p>Consulting represents success at realizing the company is going in the wrong direction. The only time the company fails is when it is not possible to do a turnaround anymore. We help companies pivot into more profitable directions where they can expand and grow. It is inevitable that companies will end up making a few mistakes; we help them correct these mistakes.
 
