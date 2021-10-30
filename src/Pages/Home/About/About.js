@@ -9,8 +9,8 @@ const About = () => {
     return (
     <div>                      
      <div className="row container-fluid">
-          <h4 className="text-success mt-5">About Us</h4>
-         <h1 className="fw-bolder mt-3">Travel Booking</h1>
+          <h2 className="fw-bolder text-success mt-5">ABOUT US</h2>
+         <h1 className="fw-bolder mt-3 travel">Travel Booking</h1>
          <p className="fw-bolder fs-5">Suffered alteration in some form, by injected humour<br /> or good day randomised booth anim 8-bit <b/>hella wolf moon beard words.</p>
                  
          <button className="mb-5 mt-5 w-25 m-auto fw-bolder btn">More About Us</button>

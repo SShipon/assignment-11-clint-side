@@ -37,10 +37,34 @@ const Blog = () => {
       </div>
     </div>
   </div>
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="headingTwo">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+      Blog description -2
+      </button>
+    </h2>
+    <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div className="accordion-body">
+        <strong> theme’s dynamic page layouts allow for numerous means of content display</strong> Tripin is an incredible new travel agency and tourism theme for Drupal. Sporting over 28 pre-built layouts, Tripin’s forward-thinking design harnesses the power and flexibility of Drupal Layout Builder to deliver stunning visuals that will excite your online audience. Fully responsive and retina-ready, Tripin is compatible with the latest version of Drupal 8, and is the ultimate asset for your next demanding Drupal project.<code>Tripin is an incredible new travel</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="headingTwo">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+      Blog description -4
+      </button>
+    </h2>
+    <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div className="accordion-body">
+        <strong> theme’s dynamic page layouts allow for numerous means of content display</strong> Tripin is an incredible new travel agency and tourism theme for Drupal. Sporting over 28 pre-built layouts, Tripin’s forward-thinking design harnesses the power and flexibility of Drupal Layout Builder to deliver stunning visuals that will excite your online audience. Fully responsive and retina-ready, Tripin is compatible with the latest version of Drupal 8, and is the ultimate asset for your next demanding Drupal project.<code>Tripin is an incredible new travel</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingThree">
       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-      Blog description -3
+      Blog description -5
       </button>
     </h2>
     <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
