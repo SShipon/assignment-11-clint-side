@@ -12,6 +12,7 @@ import PrivateRoute from './Hooks/PrivateRoute';
 import Footer from './Pages/Home/Footer/Footer';
 import Destination from './Pages/Home/Destination/Destination';
 import AddService from './Pages/AddService/AddService';
+import Remove from './Pages/Home/Remove/Remove';
 
 
 
@@ -41,9 +42,12 @@ function App() {
           <PrivateRoute exact path="/services/:serviceId">
              <ServiceDetails></ServiceDetails>
           </PrivateRoute>
+         <Route path="/remove">
+            <Remove></Remove>
+         </Route>
+
          <Route path="/addService" >
-            
-         <AddService></AddService>
+             <AddService></AddService>
          </Route>
 
           <Route path="/login">

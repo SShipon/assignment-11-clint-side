@@ -13,7 +13,7 @@ const Header = () => {
                     <div className="container-fluid">
                     <div className=" d-flex px-3">
                     <img style={{width:"50px", height:"50px", borderRadius:"50%"}} src={logo} alt="" />
-                      <h3 className="me-2 m-2">Travels & Tour</h3>
+                      <h5 className="me-2 m-2 my-auto">Travels & Tour</h5>
                     </div>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon bg-dark "></span>
@@ -39,7 +39,7 @@ const Header = () => {
                             <li className="nav-item">
                            <NavLink className="nav-link text-white me-5 " to="/login">LogIn</NavLink>
                            </li>
-                        {user?.email && <p>{user?.displayName}</p>}
+                        {user?.email && <p className="my-auto">{user?.displayName}</p>}
                         {(user?.email || login?.email) && <button onClick={logOut} type="submit" className="btn btn-success fw-bolder fs-5  ms-2">LogOut</button> }
                         {login?.displayName && <p className="pt-2">{login?.displayName}</p>}
                                               

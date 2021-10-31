@@ -16,7 +16,7 @@ const ServiceDetails = () => {
         <div className="container w-75 h-25 justify-content-center">
             <div className="row col-sm-12">
                  <div class="card mb-3  p-4">
-                     <img src={serviceDetail.image} alt="" />
+                     <img  className="" src={serviceDetail.image} alt="" />
                       <div class="card-body">
                        <h5 class="card-title">{serviceDetail.name}</h5>
                         <p class="card-text">{serviceDetail.title}</p>

@@ -72,25 +72,25 @@ const Login = () => {
   
 
     return (
-        <div>
-            <div className="m-5 ">
+        <div className="d-flex justify-content-center align-items-center">
+            <div className="m-5 border border-info p-3 ">
                 <h2 style={{color:'green'}}>{login ? 'Login Here' : 'Please Register'}</h2>
                
              <form onSubmit={handleSubmit} className="form-body" >
              <div className="pt-5">   
                {!login && <div className="row mb-3 ">
                     <div className="col-sm-12">
-                      <input onBlur={handleName} type="text" className="w-50" placeholder="your name" required />
+                      <input onBlur={handleName} type="text" className="w-100%" placeholder="your name" required />
                     </div>
                 </div>}
                 <div className="row mb-3">
                     <div className="col-sm-12">
-                      <input onBlur={handleEmail} type="email" className="w-50" placeholder="your email"  required />
+                      <input onBlur={handleEmail} type="email" className="w-100%" placeholder="your email"  required />
                     </div>
                 </div>
                 <div className="row mb-3">
                     <div className="col-sm-12">
-                      <input onBlur={handlePassword} type="password" className="w-50" placeholder="password"  required />
+                      <input onBlur={handlePassword} type="password" className="w-100%" placeholder="password"  required />
                     </div>
                 </div>
                  <div>
