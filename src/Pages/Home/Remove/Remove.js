@@ -5,7 +5,7 @@ const Remove = () => {
     useEffect(() =>{
         fetch('https://safe-scrubland-56624.herokuapp.com/services')
         .then(res =>res.json())
-        .then(result => setServices(result))
+        .then(data => setServices(data))
 
     }, []);
   
@@ -15,14 +15,12 @@ const Remove = () => {
             method: 'DELETE'
         })
         .then(res=>res.json())
-        .then(result =>{
-            console.log(result);
-            if(result.deletedCount){
+        .then(data =>{
+            console.log(data);
+            if(data.deletedCount){
                 alert('are you sure Remove')
-                const remaining = services.filter(service => service._id !==id)
-                setServices(remaining)
-               
-
+                const remaining = services.filter(service => service._id !==id);
+                setServices(remaining);
             }
            
         })
@@ -33,7 +31,7 @@ const Remove = () => {
         <div>
             <h1>Remove Data</h1>
             {
-                services.map(service => <div key={service._id}>
+             services.map(service => <div key={service._id}>
                     <h1>{service.name}</h1>
                     <button onClick={()=> handleRemove(service._id)}>Remove</button>
                 </div>)
