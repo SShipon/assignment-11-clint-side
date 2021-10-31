@@ -9,7 +9,7 @@ const ServiceCard = (props) => {
 
            <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="card-group mt-3">
-                <div className="card ">
+                <div className="card p-4">
                     <img src={image}  alt="" />
                     <div className="card-body">
                          <h3>{name}</h3>

@@ -4,10 +4,7 @@ import useData from '../../../Hooks/useData';
 const ServiceDetails = () => {
     const {serviceId}= useParams();
         const {details,lode} = useData();
-
      const serviceDetail= details.find(dt=> dt._id === (serviceId) );
-    console.log(serviceDetail)
-
     if(lode){
         return(
              ""
@@ -18,7 +15,7 @@ const ServiceDetails = () => {
         
         <div className="container w-75 h-25 justify-content-center">
             <div className="row col-sm-12">
-                 <div class="card mb-3">
+                 <div class="card mb-3  p-4">
                      <img src={serviceDetail.image} alt="" />
                       <div class="card-body">
                        <h5 class="card-title">{serviceDetail.name}</h5>

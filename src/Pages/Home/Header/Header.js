@@ -19,7 +19,7 @@ const Header = () => {
                         <span className="navbar-toggler-icon bg-dark "></span>
                     </button>
                    
-            <div className="collapse navbar-collapse align-items-center justify-content-center  fs-5 me-5"  id="navbarNav">
+            <div className="collapse navbar-collapse align-items-center justify-content-center  fs-5 me-6"  id="navbarNav">
                  <ul className="navbar-nav ">
                      <li className="nav-item">
                         <NavLink className="nav-link  text-white " aria-current="page" to="/home">Home</NavLink>
@@ -33,12 +33,15 @@ const Header = () => {
                             <li className="nav-item">
                             <NavLink className="nav-link text-white " to="/contact">Contact</NavLink>
                             </li>
+                            {user?.email && <li className="nav-item">
+                            <NavLink className="nav-link text-white " to="/addService">AddService</NavLink>
+                            </li>}
                             <li className="nav-item">
                            <NavLink className="nav-link text-white me-5 " to="/login">LogIn</NavLink>
                            </li>
                         {user?.email && <p>{user?.displayName}</p>}
                         {(user?.email || login?.email) && <button onClick={logOut} type="submit" className="btn btn-success fw-bolder fs-5  ms-2">LogOut</button> }
-                        {login?.displayName && <p>{login?.displayName}</p>}
+                        {login?.displayName && <p className="pt-2">{login?.displayName}</p>}
                                               
                      </ul>
                   </div>
