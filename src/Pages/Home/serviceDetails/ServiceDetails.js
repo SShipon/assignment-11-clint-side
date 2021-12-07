@@ -7,6 +7,7 @@ const ServiceDetails = () => {
      const serviceDetail= details.find(dt=> dt._id === (serviceId) );
     if(lode){
         return(
+
              ""
         )
     }
@@ -28,9 +29,9 @@ const ServiceDetails = () => {
                            placeholderSymbol={<i className="fas fa-star" bg="warning" ></i>}
                            fullSymbol={<i className="fas fa-star" bg="warning" ></i>}/>
                           <span style={{padding:"10px",}} >{serviceDetail.day} day</span>
-                  </p>
-                                
-                         <h2>${serviceDetail.cost}</h2>               
+                       </p>        
+                         <h2>${serviceDetail.cost}</h2> 
+                         <button onClick="">Confirm</button>    
                             </div>
                         </div>
             </div>

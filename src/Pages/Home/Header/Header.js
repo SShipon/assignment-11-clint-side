@@ -8,7 +8,7 @@ const Header = () => {
      const {user, login, logOut} = useAuth()
     return (
                 <div className="header sticky-top">
-                <nav className="navbar navbar-expand-lg text-white p-3 ">
+                <nav className="navbar navbar-expand-lg text-white">
                     
                     <div className="container-fluid">
                     <div className=" d-flex px-3">
@@ -19,7 +19,7 @@ const Header = () => {
                         <span className="navbar-toggler-icon bg-dark "></span>
                     </button>
                    
-            <div className="collapse navbar-collapse align-items-center justify-content-center  fs-5 me-6"  id="navbarNav">
+            <div className="collapse navbar-collapse align-items-center justify-content-center  fs-5 me-6" id="navbarNav">
                  <ul className="navbar-nav ">
                      <li className="nav-item">
                         <NavLink className="nav-link  text-white " aria-current="page" to="/home">Home</NavLink>
@@ -42,14 +42,12 @@ const Header = () => {
                         {user?.email && <p className="my-auto">{user?.displayName}</p>}
                         {(user?.email || login?.email) && <button onClick={logOut} type="submit" className="btn btn-success fw-bolder fs-5  ms-2">LogOut</button> }
                         {login?.displayName && <p className="pt-2">{login?.displayName}</p>}
-                                              
+                                      
                      </ul>
                   </div>
                 </div>
             </nav>
         </div>
-
-       
     );
 };
 

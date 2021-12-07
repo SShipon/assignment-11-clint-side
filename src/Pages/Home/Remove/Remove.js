@@ -17,7 +17,7 @@ const Remove = () => {
         .then(res=>res.json())
         .then(data =>{
             console.log(data);
-            if(data.deletedCount){
+            if(data.deletedCount === 1){
                 alert('are you sure Remove')
                 const remaining = services.filter(service => service._id !==id);
                 setServices(remaining);

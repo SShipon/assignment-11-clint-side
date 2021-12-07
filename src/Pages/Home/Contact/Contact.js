@@ -26,7 +26,9 @@ const Contact = () => {
                     <p className="card-text">eye@care.com <br /> care@gmail.com</p>
                     <p>+478545685</p>
                     <h6>+8801453059461</h6>
-                    <h6>+8814703059461</h6>
+                        <h6>+8814703059461</h6>
+                        <img src="" alt="" />
+                        <h1></h1>
 
                     </div>
                 </div>
